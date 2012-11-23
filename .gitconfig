@@ -1,0 +1,18 @@
+[user]
+	name = tbeauvais
+	email = tbeauvais@constantcontact.com
+[credential]
+	helper = osxkeychain
+[core]
+	editor = subl -n -w
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[alias]
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p

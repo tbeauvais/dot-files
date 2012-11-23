@@ -1,0 +1,17 @@
+{
+	"auto_upgrade_last_run": 1353687414,
+	"installed_packages":
+	[
+		"CoffeeScript",
+		"DetectSyntax",
+		"Git",
+		"Haml",
+		"HTML2Haml",
+		"LineEndings",
+		"Package Control",
+		"RspecBuild",
+		"RubyFormat",
+		"RubyTest",
+		"Sass"
+	]
+}

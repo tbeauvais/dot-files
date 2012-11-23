@@ -1,0 +1,4 @@
+{
+	"last_test_run": "~/.rvm/bin/rvm-auto-ruby -S bundle exec rspec spec/models/summary_count_spec.rb",
+	"last_test_working_dir": "/Users/tbeauvais/dev/contacts-core"
+}
