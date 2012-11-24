@@ -12,6 +12,9 @@ export JRUBY_OPTS="--1.9 -J-Dfile.encoding=UTF-8 -J-Djruby.jit.threshold=10 -J-D
 
 #export JRUBY_OPTS="--1.9 -J-Dfile.encoding=UTF-8 -J-Djruby.jit.threshold=10 -J-Djruby.compile.mode=FORCE -J-Xms1536m -J-Xmx1536m -J-XX:MaxPermSize=512m -J-server"
 
+alias pryr='pry -r ./config/environment'
+alias md='mkdir'
+alias core='cd ~/dev/contacts-core'
 
 # Homebrew stuff.
 export PATH=`brew --prefix`/bin:`brew --prefix`/sbin:~/bin:$PATH
