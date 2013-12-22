@@ -16,3 +16,6 @@
   co = checkout
   df = diff
   lg = log -p
+[push]
+  # Push current branch even if you've never pushed it before
+  default = current
