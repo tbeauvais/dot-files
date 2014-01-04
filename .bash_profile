@@ -9,7 +9,7 @@ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_07.jdk/Contents/Home
 export PATH=/usr/local/bin:/bin:/opt/local/sbin:/usr/local/git/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:$JAVA_HOME/bin:$PATH:~/jmeter/apache-jmeter-2.10/bin
 
 # To add JRuby profiling (--profile.api -J-Djruby.profile.max.methods=10000000)
-export JRUBY_OPTS="-J-Djruby.jit.background=false -J-Dfile.encoding=UTF-8 -J-Djruby.jit.threshold=5 -J-Djruby.compile.mode=JIT -J-Xms3584m -J-Xmx3584m -J-XX:MaxPermSize=512m -J-XX:MaxDirectMemorySize=256M -J-XX:+UseG1GC -J-XX:+HeapDumpOnOutOfMemoryError -J-XX:HeapDumpPath=/opt/cc/logs -J-server --profile.api -J-Djruby.profile.max.methods=10000000"
+# export JRUBY_OPTS="-J-Djruby.jit.background=false -J-Dfile.encoding=UTF-8 -J-Djruby.jit.threshold=5 -J-Djruby.compile.mode=JIT -J-Xms3584m -J-Xmx3584m -J-XX:MaxPermSize=512m -J-XX:MaxDirectMemorySize=256M -J-XX:+UseG1GC -J-XX:+HeapDumpOnOutOfMemoryError -J-XX:HeapDumpPath=/opt/cc/logs -J-server --profile.api -J-Djruby.profile.max.methods=10000000"
 
 # Use for faster spec runs
 #export JRUBY_OPTS="-J-Djruby.jit.background=true -J-Dfile.encoding=UTF-8 -J-Djruby.jit.threshold=100 -J-Djruby.compile.mode=JIT -J-Xms3584m -J-Xmx3584m -J-XX:MaxPermSize=512m -J-XX:MaxDirectMemorySize=256M -J-XX:+HeapDumpOnOutOfMemoryError -J-XX:HeapDumpPath=/opt/cc/logs -J-server -J-Djruby.compile.invokedynamic=false"
